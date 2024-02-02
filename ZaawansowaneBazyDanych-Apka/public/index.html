@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <link rel="stylesheet"style="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <title>Test Połączenia z Bazą Danych</title>
+</head>
+<body>
+  <span>Połączenie z bazą danych PostgreSQL</span>
+  <form id="connectionForm">
+    <input type="text" id="dbname" placeholder="Nazwa bazy danych">
+    <input type="text" id="user" placeholder="Login użytkownika">
+    <input type="password" id="password" placeholder="Hasło">
+    <input type="text" id="host" placeholder="Host">
+    <input type="number" id="port" placeholder="Port">
+    <button type="submit">Test</button>
+  </form>
+  <p id="result"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
